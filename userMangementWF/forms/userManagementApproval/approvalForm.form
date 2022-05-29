@@ -1,0 +1,62 @@
+{
+    "id": "approvalform",
+    "schemaVersion": "1.1.0",
+    "name": "approvalForm",
+    "revision": "1.0",
+    "type": "task",
+    "readOnly": false,
+    "content": [
+        {
+            "id": "sender",
+            "type": "string",
+            "label": "TicketNo",
+            "readOnly": true,
+            "value": "${context.approvalrequest.ticketno}",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "id": "recipient",
+            "type": "string",
+            "label": "UserID",
+            "readOnly": true,
+            "value": "${context.approvalrequest.userid}",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "id": "subject",
+            "type": "string",
+            "label": "System",
+            "readOnly": true,
+            "value": "${context.approvalrequest.system}",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "id": "body",
+            "type": "string",
+            "label": "Client",
+            "readOnly": true,
+            "value": "${context.approvalrequest.client}",
+            "constraints": {
+                "required": false
+            }
+        }
+    ],
+    "decisions": [
+        {
+            "id": "approve",
+            "text": "Approve",
+            "decisionType": "positive"
+        },
+        {
+            "id": "reject",
+            "text": "Reject",
+            "decisionType": ""
+        }
+    ]
+}
