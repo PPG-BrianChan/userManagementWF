@@ -25,11 +25,26 @@ var product = {
 $.context.product = product;
 */
 
+var ticketno = $.context.approvalrequest.ticketno;
+var targetid = $.context.approvalrequest.targetid;
+var system = $.context.approvalrequest.system;
+var client = $.context.approvalrequest.client;
+
+var subject = "Approval request for user management process - Ticket " + ticketno;
+var body = "You have a pending approval for ticket no " + ticketno + " to unlock user id " + targetid + " in system " + system + " client " + client;
+
 var mailrequest ={
     sender : "SAPCOEBTPGeneral@ppg.com",
     recipient : "cchan@ppg.com",
-    subject : "Mail from Workflow",
-    body : "This is a mail from workflow"
+    subject : subject,
+    body : body
 }
+
+// var mailrequest ={
+//     sender : "SAPCOEBTPGeneral@ppg.com",
+//     recipient : "cchan@ppg.com",
+//     subject : "Mail from Workflow",
+//     body : "This is a mail from workflow"
+// }
 
 $.context.mailrequest = mailrequest;
