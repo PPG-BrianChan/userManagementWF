@@ -102,6 +102,7 @@
 			"httpMethod": "POST",
 			"requestVariable": "${context.mailrequest}",
 			"responseVariable": "${context.response}",
+			"headers": [],
 			"id": "servicetask3",
 			"name": "sendMail"
 		},
@@ -210,10 +211,6 @@
 		"473f90ad-c953-4026-826f-552f1ba950fd": {
 			"classDefinition": "com.sap.bpm.wfs.ui.UserTaskSymbol",
 			"x": 394,
-			"y": 29.999999701976776,
-			"width": 100,
-			"height": 60,
-			"object": "73d92523-4f1f-49ce-80c2-ceeb15ce9697"
 		},
 		"cde72958-0a31-433f-bff6-221046eda020": {
 			"classDefinition": "com.sap.bpm.wfs.ui.ExclusiveGatewaySymbol",
@@ -245,17 +242,17 @@
 		"dfd7764d-10d3-4531-8d74-bb6f2919c5ab": {
 			"classDefinition": "com.sap.bpm.wfs.ui.ServiceTaskSymbol",
 			"x": 244,
-			"y": 29.999999701976776,
-			"width": 100,
-			"height": 60,
-			"object": "f58dbad1-be73-421d-a1b6-a05de58b33f6"
-		},
-		"3516ca2c-e6e7-4ad7-ac38-74cd9daa9fdd": {
-			"classDefinition": "com.sap.bpm.wfs.ui.SequenceFlowSymbol",
+=======
 			"points": "344,59.999999701976776 394,59.999999701976776",
 			"sourceSymbol": "dfd7764d-10d3-4531-8d74-bb6f2919c5ab",
 			"targetSymbol": "473f90ad-c953-4026-826f-552f1ba950fd",
 			"object": "3c8de88a-1337-470c-b30e-ffa0f9caabb1"
+=======
+			"points": "455.9999988079071,42 505.9999988079071,42",
+			"sourceSymbol": "ba500a92-c25b-4ad6-9aea-205eea184f19",
+			"targetSymbol": "28017128-bfbd-4a6d-9f77-1f68441d138b",
+			"object": "febf4b40-9392-40f2-8ef5-1820b01cb22e"
+>>>>>>> 5fe64c3641a0fe16ff7f565d8a9e7a6ec953c220
 		},
 		"69076f18-0a68-46f6-974b-bfee6bd27525": {
 			"classDefinition": "com.sap.bpm.wfs.ui.ServiceTaskSymbol",

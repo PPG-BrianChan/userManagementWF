@@ -1,0 +1,32 @@
+#2.0#2022 05 31 16:29:30.437#Z#DEBUG#com.sap.cloud.lm.sl.xs2.c206c028-e0fe-11ec-9019-eeee0a8f6e81.userMangementWF_workflow.startContentDeployTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-36386###
+[PollDeployContentStatusExecution] [userMangementWF] [INFO] Deployment of file Id d4dbc44b-e0fe-11ec-9a6f-2b309bb96af1 started#
+
+#2.0#2022 05 31 16:29:30.437#Z#DEBUG#com.sap.cloud.lm.sl.xs2.c206c028-e0fe-11ec-9019-eeee0a8f6e81.userMangementWF_workflow.startContentDeployTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-36386###
+[PollDeployContentStatusExecution] [userMangementWF] [INFO] Deployment of approvalForm.form started#
+
+#2.0#2022 05 31 16:29:30.437#Z#DEBUG#com.sap.cloud.lm.sl.xs2.c206c028-e0fe-11ec-9019-eeee0a8f6e81.userMangementWF_workflow.startContentDeployTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-36386###
+[PollDeployContentStatusExecution] [userMangementWF] [INFO] Deployment of approvalForm.form was completed successfully, Deployment details : {"deployResourceId":"d507b678-e0fe-11ec-a11d-d522841167ae","contentId":"d507b677-e0fe-11ec-a11d-4784912f62ed","deployedArtifactId":"approvalform","deployedArtifactName":"approvalForm","deployedArtifactVersion":"1"}#
+
+#2.0#2022 05 31 16:29:30.437#Z#DEBUG#com.sap.cloud.lm.sl.xs2.c206c028-e0fe-11ec-9019-eeee0a8f6e81.userMangementWF_workflow.startContentDeployTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-36386###
+[PollDeployContentStatusExecution] [userMangementWF] [INFO] Deployment of userManagementApproval.workflow started#
+
+#2.0#2022 05 31 16:29:30.439#Z#DEBUG#com.sap.cloud.lm.sl.xs2.c206c028-e0fe-11ec-9019-eeee0a8f6e81.userMangementWF_workflow.startContentDeployTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-36386###
+[PollDeployContentStatusExecution] [userMangementWF] [ERROR] Deployment of userManagementApproval.workflow failed due to  invalid response code 422 from runtime server, Response Details: {"error":{"code":"bpm.workflowruntime.rest.definition.model.invalid","message":"Invalid model content","logId":"006fce58-9374-4075-9b14-3ee1753e924a"}}#
+
+#2.0#2022 05 31 16:29:30.441#Z#DEBUG#com.sap.cloud.lm.sl.xs2.c206c028-e0fe-11ec-9019-eeee0a8f6e81.userMangementWF_workflow.startContentDeployTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-36386###
+[PollDeployContentStatusExecution] [userMangementWF] [FATAL] Deployment of userManagementApproval.workflow failed , Error Details: while trying to invoke the method org.springframework.http.ResponseEntity.getStatusCode() of a null object loaded from local variable 'response'#
+
+#2.0#2022 05 31 16:29:40.221#Z#DEBUG#com.sap.cloud.lm.sl.xs2.c206c028-e0fe-11ec-9019-eeee0a8f6e81.userMangementWF_workflow.startContentDeployTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-50184###
+[PollDeployContentStatusExecution] [userMangementWF] [INFO] Deployment of file Id d4dbc44b-e0fe-11ec-9a6f-2b309bb96af1 started#
+
+#2.0#2022 05 31 16:29:40.224#Z#DEBUG#com.sap.cloud.lm.sl.xs2.c206c028-e0fe-11ec-9019-eeee0a8f6e81.userMangementWF_workflow.startContentDeployTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-50184###
+[PollDeployContentStatusExecution] [userMangementWF] [FATAL] Deployment of file Id d4dbc44b-e0fe-11ec-9a6f-2b309bb96af1  Failed, Error details: while trying to invoke the method com.sap.bpm.wds.core.model.WorkflowModuleContent.getSubcontents() of a null object loaded from local variable 'obj'#
+
